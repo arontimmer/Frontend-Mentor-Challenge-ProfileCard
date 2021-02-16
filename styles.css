@@ -1,0 +1,132 @@
+html {
+    font-family: "Kumbh Sans";
+}
+
+body {
+    background-color:hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 120px;
+}
+
+
+
+#bg-bottom {
+    height: 10%;
+    width: 10%;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 1em;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 5em;
+}
+
+.pattern {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    object-position: center;
+}
+
+.profile-pic {
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3.5em;
+}
+
+.info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    padding: 2em 2em;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    border-top: 0.1em solid lightgray;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
+    color: grey;
+    margin-top: -0.5em;
+}
+
+
+.place {
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: -2em;
+    
+}
+
+#profile-pic-img {
+    border: 0.5em solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 120px;
+   
+}
+
+#bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#name {
+font-weight: 700;
+font-size: 1.2em;
+}
+
+#age {
+    font-weight: 300;
+    font-size: 1.2em;
+padding-left: 0.5em;
+color: rgb(140, 140, 140);
+}
+
+#city {
+font-weight: 100;
+font-size: 1em;
+color: rgb(140, 140, 140);
+}
+
+background-image {
+    width: 100px;
+}
